@@ -91,7 +91,7 @@ for i in data.values():
         print(i1)
 
 # QUESTIONS
-# 01.get a number from user and a random number between 1 to 10 if both the numbers are equal print winner otherwise print looser
+''' Q1.get a number from user and a random number between 1 to 10 if both the numbers are equal print winner otherwise print looser'''
 import random
 x = int(input("enter a number between 0 to 10"))
 y = random.randrange(0,10)
@@ -102,7 +102,7 @@ else:
 
 
 '''
-Q1. Unique Cities Finder
+Q2. Unique Cities Finder
 -------------------------------------------
 cities = ["Delhi", "Mumbai", "Pune", "Delhi", "Pune", "Jaipur", "Mumbai"]
 
@@ -121,7 +121,7 @@ print(type(x))
 print(len(x))
 
 '''
- Q2. Remove Duplicates from List Using Set
+ Q3. Remove Duplicates from List Using Set
 -------------------------------------------
 nums = [1, 2, 3, 2, 4, 1, 5, 3, 6, 5]
 
@@ -141,7 +141,7 @@ print(y)
 print(type(y))
 
 '''
-Q3. Count Word Frequency (Dictionary)
+Q4. Count Word Frequency (Dictionary)
 -------------------------------------------
 text = "apple mango apple orange mango apple"
 
@@ -151,7 +151,7 @@ text = "apple mango apple orange mango apple"
 # 2. Output: {'apple': 3, 'mango': 2, 'orange': 1}
 
 '''
-# TASK 1
+# TASK 
 text = "apple mango apple orange mango apple"
 x = text.split(" ")
 this_dict = {}
@@ -160,10 +160,11 @@ for i in x:
         this_dict[i] += 1
     else:
         this_dict[i] = 1
-print(this_dict)      
+print(this_dict) 
+print(type(this_dict))     
 
 '''
-Q4. Student Marks Dictionary
+Q5. Student Marks Dictionary
 -------------------------------------------
 marks = {
     "Ajay": 85,
@@ -179,6 +180,7 @@ marks = {
 '''
 # Task 1
 marks = {
+
     "Ajay": 85,
     "Rohit": 92,
     "Simran": 78,
@@ -206,7 +208,7 @@ for i in marks.keys():
 print(highest_name,highest_marks)
 
 '''
-Q5. Price Updater
+Q6. Price Updater
 -------------------------------------------
 prices = {
     "pen": 10,
@@ -218,7 +220,7 @@ prices = {
 # 1. Sab items ki price 10% badhao
 # 2. Nayi dictionary print karo (Example: pen -> 11, pencil -> 5.5)
 '''
-# TASK 1
+# TASK 
 prices = {
     "pen": 10,
     "pencil": 5,
