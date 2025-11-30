@@ -161,8 +161,7 @@ for i in x:
     else:
         this_dict[i] = 1
 print(this_dict) 
-print(type(this_dict))     
-
+ 
 '''
 Q5. Student Marks Dictionary
 -------------------------------------------
@@ -180,7 +179,6 @@ marks = {
 '''
 # Task 1
 marks = {
-
     "Ajay": 85,
     "Rohit": 92,
     "Simran": 78,
