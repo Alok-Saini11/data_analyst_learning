@@ -88,8 +88,8 @@ class Calculator:
       print(self.a - self.b)
    def divide(self):
       print(self.a / self.b)      
-   def modulus(self):
-      print(self.a % self.b)   
+   def multiply(self):
+      print(self.a * self.b)   
 
 x = int(input("enter your number"))
 y = int(input("enter your number"))      
@@ -98,4 +98,4 @@ obj = Calculator(x,y)
 obj.sum()
 obj.sub()
 obj.divide()
-obj.modulus()
+obj.multiply()
