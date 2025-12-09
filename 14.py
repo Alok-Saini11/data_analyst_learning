@@ -21,10 +21,11 @@ file.close()
 
 # SECOND METHOD TO WRITE IN A FILE
 with open("demo.txt","w")as file:
-    print(file.write("my name is ravi"))
+    print(file.write("my name is ram"))
 
 with open("demo.txt","r")as file:
-    print(file.read())
+  
+  print(file.read())
 
 # TRY & EXCEPT
 try:
