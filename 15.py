@@ -40,7 +40,7 @@ print(d)
 
 # To check difference between dates
 date_1 = datetime.date(2024,12,5)
-date_2 = datetime.date(2023,5,20)
+date_2 = datetime.date(2022,5,20)
 
 diff = date_1 - date_2
 print(diff.days)
