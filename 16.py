@@ -1,7 +1,6 @@
-'''
 # questions
-01. [10,20,10,30,50,70,90,80] find out its average,maximum,minimum value and also fid the count of students above the
-average and less than average OR find the frequency of the list'''
+# 01. [10,20,10,30,50,70,90,80] find out its average,maximum,minimum value and also fid the count of students above the
+#average and less than average OR find the frequency of the list
 
 data = [10,20,10,30,50,70,90,80]
 len = 0
