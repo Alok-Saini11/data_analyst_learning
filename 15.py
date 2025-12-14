@@ -6,13 +6,29 @@ data = {
     "course" : "BCA",
     "age" : 20
 }
+# Dump()
 with open("data.json","w")as file:
     json.dump(data,file,indent=5)
     print("data insert successfully")
 
+# Load()
 with open("data.json","r")as file:
     data = json.load(file)
     print(data["name"])
+
+# Dumps()
+json_string = json.dumps(data)
+with open("data.json", "w") as file:
+    file.write(json_string)
+print(json_string)     
+print(type(data))
+
+# Loads()
+with open("data.json",'r') as file:
+    json_string = file.read()
+data = json.loads(json_string)    
+print(data)
+print(type(data))
 
 # DATE & TIME MODULE
 # to print today date and time
