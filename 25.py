@@ -1,6 +1,5 @@
-import matplotlib as mt
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 
 df = pd.read_csv("cleaned_Heart_Disease_dataset.csv")
