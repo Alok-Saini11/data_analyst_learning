@@ -123,7 +123,7 @@ plt.show()
 plt.plot(x,y,ls = 'dashed')
 plt.show()
 
-# or(remove a line)
+# None(remove a line)
 plt.plot(x,y,ls = 'None')
 plt.show()
 
