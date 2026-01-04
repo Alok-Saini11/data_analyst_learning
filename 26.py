@@ -7,79 +7,79 @@ y = np.array([10,20,30,40])
 plt.plot(x,y,'o')
 plt.show()
 
-# "*"
+# "Star"
 plt.plot(x,y,'*')
 plt.show()
 
-# "."
+# "Point"
 plt.plot(x,y,'.')
 plt.show()
 
-# "H"
+# "Hexagon"
 plt.plot(x,y,'H')
 plt.show()
 
-# "D"
+# "Diamond filled"
 plt.plot(x,y,'D')
 plt.show()
 
-# "P"
+# "pentagon"
 plt.plot(x,y,'P')
 plt.show()
 
-# "^"
+# "Triangle up"
 plt.plot(x,y,'^')
 plt.show()
 
-# ">"
+# "Triangle right"
 plt.plot(x,y,'>')
 plt.show()
 
-# "2"
+# "Triangle up"
 plt.plot(x,y,'2')
 plt.show()
 
-# "4"
+# "Triangle right"
 plt.plot(x,y,'4')
 plt.show()
 
-# "-"
+# "Horizontal line"
 plt.plot(x,y,'-')
 plt.show()
 
-# "X"
+# "X filled"
 plt.plot(x,y,'X')
 plt.show()
 
-# "+"
+# "plus"
 plt.plot(x,y,'+')
 plt.show()
 
-# "s"
+# "Square"
 plt.plot(x,y,'s')
 plt.show()
 
-# "d"
+# "Diamond"
 plt.plot(x,y,'d')
 plt.show()
 
-# "v"
+# "Triangle down"
 plt.plot(x,y,'v')
 plt.show()
 
-# "<"
+# "Triangle left"
 plt.plot(x,y,'<')
 plt.show()
 
-# "1"
+# "Triangle down"
 plt.plot(x,y,'1')
 plt.show()
 
-# "3"
+# "Triangle left"
 plt.plot(x,y,'3')
 plt.show()
 
-# "|"
+# "pipe"
 plt.plot(x,y,'|')
 plt.show()
 '''
